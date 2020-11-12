@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cal</title>
+  </head>
+<body>
+    <div id="container">
+        <div id="main">
+            
+            <div class="screen">
+                <p id="demo"></p>
+            </div>
+            <div class="keypad">
+                <table>
+                    <tr>
+                        <td id="9" onclick="operate(id)">9</td>
+                        <td id="8" onclick="operate(id)">8</td>
+                        <td id="7" onclick="operate(id)">7</td>
+                        <td id="divide" onclick="calc(id)">/</td>
+                        <td id="multiply" onclick="calc(id)">*</td>
+                    </tr>
+                    <tr>
+                        <td id="6" onclick="operate(id)">6</td>
+                        <td id="5" onclick="operate(id)">5</td>
+                        <td id="4" onclick="operate(id)">4</td>
+                        <td id="substract" onclick="calc(id)">-</td>
+                        <td id="add" onclick="calc(id)">+</td>
+                       
+                    </tr>
+                    <tr>
+
+                        <td id="3" onclick="operate(id)">3</td>
+                        <td id="2" onclick="operate(id)">2</td>
+                        <td id="1" onclick="operate(id)">1</td>
+                        <td id="0" onclick="operate(id)">0</td>
+                        <td id="clear" onclick="clear_screen()"><-</td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
